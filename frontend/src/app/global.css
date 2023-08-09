@@ -1,0 +1,9 @@
+@font-face {
+    font-family: transformer;
+    src: url('../../public/Transformers.ttf');
+}
+
+body {
+    font-family: transformer;
+    margin: 0;
+}
