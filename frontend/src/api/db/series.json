@@ -1,0 +1,165 @@
+[
+    {
+        "id": 1,
+        "title": "Transformers: Cyberverse",
+        "short_summary": "Autobots enfrentan a Decepticons en una lucha a través del tiempo y el espacio.",
+        "long_summary": "En 'Transformers: Cyberverse', los Autobots, liderados por Bumblebee, enfrentan a los Decepticons en una batalla que trasciende el tiempo y el espacio. A través de múltiples líneas de tiempo y realidades alternativas, Bumblebee y su equipo luchan por evitar que Megatron obtenga el poder del AllSpark. A medida que navegan por los peligros de Cyberverse, deben reclutar a héroes del pasado y formar alianzas cruciales para proteger la realidad y la existencia misma de los Transformers.",
+        "images": [
+            "/series/transformers_cyberverse.jpg"
+        ],
+        "release_year": 2018,
+        "writers": [
+            "Varios"
+        ],
+        "stars": [
+            "Jeremy Levy",
+            "Ryan Andes",
+            "Jake Tillman"
+        ],
+        "seasons": 4,
+        "episodes": 62
+    },
+    {
+        "id": 2,
+        "title": "Transformers: Prime",
+        "short_summary": "Autobots defienden la Tierra contra Decepticons bajo una amenaza cósmica.",
+        "long_summary": "En 'Transformers: Prime', los Autobots liderados por Optimus Prime se encuentran en una batalla continua con los Decepticons de Megatron. Con la Tierra como campo de batalla, ambos bandos luchan por el control de Energon y la Chispa Suprema mientras se enfrentan a una amenaza cósmica que podría destruir el planeta. Junto a sus aliados humanos, los Autobots deben detener a Megatron y salvar a la Tierra de su inminente destrucción.",
+        "images": [
+            "/series/transformers_prime.jpg"
+        ],
+        "release_year": 2010,
+        "writers": [
+            "Roberto Orci",
+            "Alex Kurtzman"
+        ],
+        "stars": [
+            "Peter Cullen",
+            "Frank Welker",
+            "Jeffrey Combs"
+        ],
+        "seasons": 3,
+        "episodes": 65
+    },
+    {
+        "id": 3,
+        "title": "Transformers: Animated",
+        "short_summary": "Autobots luchan contra Decepticons en la futurista ciudad de Detroit.",
+        "long_summary": "En 'Transformers: Animated', los Autobots liderados por Optimus Prime se enfrentan a los Decepticons en la ciudad futurista de Detroit. Mientras intentan mantener un perfil bajo, los Autobots se ven envueltos en batallas épicas mientras luchan por proteger la Tierra y a la humanidad de los malvados planes de Megatron. A medida que descubren nuevos aliados y enemigos, deben desentrañar los misterios detrás de la AllSpark y su propio pasado.",
+        "images": [
+            "/series/transformers_Animated.jpg"
+        ],
+        "release_year": 2007,
+        "writers": [
+            "Varios"
+        ],
+        "stars": [
+            "David Kaye",
+            "Jeff Bennett",
+            "Bumper Robinson"
+        ],
+        "seasons": 3,
+        "episodes": 42
+    },
+    {
+        "id": 4,
+        "title": "Transformers: Armada",
+        "short_summary": "La lucha por Mini-Cons y la Chispa Suprema define el destino de los Transformers.",
+        "long_summary": "En 'Transformers: Armada', los Autobots y Decepticons luchan por el control de los Mini-Cons, pequeños robots con un gran poder. A medida que descubren la conexión entre los Mini-Cons y la Chispa Suprema, la batalla adquiere una dimensión aún mayor. Optimus Prime y Megatron lideran a sus respectivas facciones en una lucha épica por el destino de Cybertron y la galaxia. Los lazos se ponen a prueba y las alianzas cambian en esta emocionante serie.",
+        "images": [
+            "/series/transformers_armada.jpg"
+        ],
+        "release_year": 2002,
+        "writers": [
+            "Varios"
+        ],
+        "stars": [
+            "Garry Chalk",
+            "David Kaye",
+            "Matt Hill"
+        ],
+        "seasons": 1,
+        "episodes": 52
+    },
+    {
+        "id": 5,
+        "title": "Transformers: Robots in Disguise",
+        "short_summary": "Autobots mantienen la paz en la Tierra mientras luchan contra Decepticons ocultos.",
+        "long_summary": "En 'Transformers: Robots in Disguise' (2001), los Autobots, liderados por Optimus Prime y Ultra Magnus, mantienen la paz en la Tierra mientras enfrentan una nueva amenaza. Los Decepticons regresan y se esconden en formas alternativas, lo que hace que los Autobots deban desenmascarar sus identidades y detener sus maquinaciones. A medida que luchan contra la amenaza oculta y protegen a la humanidad, los Autobots deben desentrañar los misterios detrás de la nueva conspiración Decepticon.",
+        "images": [
+            "/series/transformers_robots_in_disguise.jpg"
+        ],
+        "release_year": 2001,
+        "writers": [
+            "Varios"
+        ],
+        "stars": [
+            "Neil Kaplan",
+            "Daniel Riordan",
+            "Mitchell Whitfield"
+        ],
+        "seasons": 1,
+        "episodes": 39
+    },
+    {
+        "id": 6,
+        "title": "Transformers: Beast Wars",
+        "short_summary": "Transformers evolucionan en formas de vida animal en una lucha por el futuro.",
+        "long_summary": "En 'Transformers: Beast Wars', un grupo de Autobots liderados por Optimus Primal y un equipo de Decepticons dirigidos por Megatron, se estrellan en un planeta prehistórico. Para ocultarse de la detección y mantener la historia intacta, los Transformers adoptan formas de vida animal. La lucha entre los Maximals (Autobots) y los Predacons (Decepticons) se libra a través del tiempo y el espacio mientras luchan por el control de la Chispa Suprema y el destino de su propia línea de tiempo.",
+        "images": [
+            "/series/transformers_beast_wars.jpg"
+        ],
+        "release_year": 1996,
+        "writers": [
+            "Larry DiTillio",
+            "Bob Forward"
+        ],
+        "stars": [
+            "Garry Chalk",
+            "David Kaye",
+            "Scott McNeil"
+        ],
+        "seasons": 3,
+        "episodes": 52
+    },
+    {
+        "id": 7,
+        "title": "Transformers: Victory",
+        "short_summary": "Los Autobots luchan contra los Decepticons en busca de energon en el futuro.",
+        "long_summary": "En 'Transformers: Victory', los Autobots liderados por Star Saber enfrentan una última batalla con los Decepticons en el siglo XXI. Con la Tierra y Cybertron devastados por la guerra, los Autobots buscan el preciado Energon para restaurar su mundo. A medida que la lucha se intensifica, se revelan nuevas amenazas y alianzas sorprendentes. Star Saber y sus compañeros luchan no solo por la supervivencia, sino también por el legado de los Transformers.",
+        "images": [
+            "/series/transformers_victory.jpg"
+        ],
+        "release_year": 1989,
+        "writers": [
+            "Varios"
+        ],
+        "stars": [
+            "Toshio Furukawa",
+            "Yumi Toma",
+            "Hideyuki Hori"
+        ],
+        "seasons": 1,
+        "episodes": 32
+    },
+    {
+        "id": 8,
+        "title": "Transformers: Generación 1",
+        "short_summary": "La serie original que dio inicio a la franquicia Transformers.",
+        "long_summary": "En 'Transformers: Generación 1', los Autobots y Decepticons, dos facciones alienígenas robóticas, llevan su conflicto a la Tierra en su búsqueda de Energon, una valiosa fuente de energía. Los Autobots están liderados por Optimus Prime, mientras que los Decepticons son comandados por Megatron. La serie sigue sus batallas épicas mientras luchan por la supremacía y la supervivencia en medio de la guerra intergaláctica. Los humanos se ven atrapados en el conflicto y juegan un papel crucial en el destino de los Transformers y del planeta.",
+        "images": [
+            "/series/transformers_generation_1.jpg"
+        ],
+        "release_year": 1984,
+        "writers": [
+            "Varios"
+        ],
+        "stars": [
+            "Peter Cullen",
+            "Frank Welker",
+            "Chris Latta"
+        ],
+        "seasons": 4,
+        "episodes": 98
+    }
+]
+
