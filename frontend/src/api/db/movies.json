@@ -1,0 +1,155 @@
+[
+    {
+        "id": 1,
+        "title": "Transformers: El Despertar de las Bestias",
+        "original_title": "Transformers: Rise of the Beasts",
+        "short_summary": "La batalla se expande con nuevas amenazas y una historia antigua.",
+        "long_summary": "En 'Transformers: El Despertar de las Bestias', los Autobots y Decepticons se enfrentan a un conflicto que trasciende su existencia en la Tierra. Cuando una antigua fuerza malévola amenaza con desatar el caos en todo el mundo, los héroes robotizados deben unir sus fuerzas con nuevas facciones alienígenas, los Terrans y los Maximals. Juntos, deberán descubrir secretos enterrados en la historia de la humanidad y de los Transformers, mientras luchan por proteger a la Tierra y asegurar su supervivencia.",
+        "images": [
+            "/movies/Transformers_El_despertar_de_las_bestias.jpg"
+        ],
+        "director": "Steven Caple Jr.",
+        "release_year": 2023,
+        "writers": [
+            "Joby Harold",
+            "James Vanderbilt"
+        ],
+        "stars": [
+            "Anthony Ramos",
+            "Dominique Fishback",
+            "Peter Cullen"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Bumblebee",
+        "original_title": "Bumblebee",
+        "short_summary": "Una joven descubre y hace amistad con Bumblebee.",
+        "long_summary": "En 'Bumblebee', nos transportamos a los años 80, cuando la Tierra se convierte en un campo de batalla secreto entre los Autobots y los Decepticons. Una adolescente llamada Charlie descubre a Bumblebee, un Autobot dañado y descompuesto, en un depósito de chatarra. A medida que repara a Bumblebee y forja un vínculo con él, Charlie se encuentra en medio de un conflicto épico que puede cambiar el destino de ambos mundos. Juntos, luchan contra los Decepticons y descubren que la amistad puede ser la clave para salvar a la humanidad y a los Autobots.",
+        "images": [
+            "/movies/Bumblebee.jpg"
+        ],
+        "director": "Travis Knight",
+        "release_year": 2018,
+        "writers": [
+            "Christina Hodson"
+        ],
+        "stars": [
+            "Hailee Steinfeld",
+            "John Cena",
+            "Jorge Lendeborg Jr."
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Transformers: El Último Caballero",
+        "original_title": "Transformers: The Last Knight",
+        "short_summary": "Una antigua alianza entre humanos y Transformers es revelada.",
+        "long_summary": "En 'Transformers: El Último Caballero', Optimus Prime regresa a su planeta natal Cybertron, ahora un mundo muerto, y descubre una conexión oculta entre la historia de los Transformers y la humanidad. Mientras tanto, una nueva amenaza emerge cuando Quintessa, una diosa siniestra, planea desatar su venganza y destruir la Tierra. Cade Yeager y sus aliados deben descubrir los secretos del pasado para salvar el futuro, enfrentando desafíos épicos y descubriendo artefactos poderosos en una lucha desesperada por la supervivencia.",
+        "images": [
+            "/movies/Transformers_El_ultimo_caballero.jpg"
+        ],
+        "director": "Michael Bay",
+        "release_year": 2017,
+        "writers": [
+            "Art Marcum",
+            "Matt Holloway",
+            "Ken Nolan"
+        ],
+        "stars": [
+            "Mark Wahlberg",
+            "Anthony Hopkins",
+            "Josh Duhamel"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Transformers: La Era de la Extinción",
+        "original_title": "Transformers: Age of Extinction",
+        "short_summary": "Humanos y Autobots enfrentan a un nuevo enemigo.",
+        "long_summary": "En 'Transformers: La Era de la Extinción', la humanidad ha cambiado su percepción de los Transformers después de una devastadora batalla en Chicago. Ahora, los Autobots son perseguidos por el gobierno, y un mecánico llamado Cade Yeager descubre a Optimus Prime escondido en un camión. Mientras luchan por sobrevivir, descubren que un grupo de cazadores de recompensas alienígenas está detrás de ellos. A medida que enfrentan a un poderoso enemigo y descubren la existencia de los Dinobots, la batalla por la supervivencia de los Transformers y la humanidad se vuelve más desesperada que nunca.",
+        "images": [
+            "/movies/Transformers_La_era_de_la_extinciaon.jpg"
+        ],
+        "director": "Michael Bay",
+        "release_year": 2014,
+        "writers": [
+            "Ehren Kruger"
+        ],
+        "stars": [
+            "Mark Wahlberg",
+            "Nicola Peltz",
+            "Jack Reynor"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Transformers: El Lado Oscuro de la Luna",
+        "original_title": "Transformers: Dark of the Moon",
+        "short_summary": "Los Autobots descubren una nave espacial Cybertroniana oculta.",
+        "long_summary": "En 'Transformers: El Lado Oscuro de la Luna', los Autobots descubren un oscuro secreto que ha estado oculto en la Luna durante siglos. Mientras investigan, descubren que los Decepticons también están tras la misma tecnología antigua. La carrera por obtener la ventaja tecnológica se intensifica cuando los Autobots y los Decepticons se enfrentan en una batalla épica en la Tierra. La humanidad se encuentra atrapada en medio de esta guerra mientras los Transformers revelan su papel en la historia de la humanidad y en la supervivencia del planeta.",
+        "images": [
+            "/movies/Transformers_El_lado_oscuro_de_la_Luna.jpg"
+        ],
+        "director": "Michael Bay",
+        "release_year": 2011,
+        "writers": [
+            "Ehren Kruger"
+        ],
+        "stars": [
+            "Shia LaBeouf",
+            "Rosie Huntington-Whiteley",
+            "Josh Duhamel"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Transformers: La Venganza de los Caídos",
+        "original_title": "Transformers: Revenge of the Fallen",
+        "short_summary": "La batalla continúa con una poderosa amenaza Decepticon.",
+        "long_summary": "En 'Transformers: La Venganza de los Caídos', los Autobots y Decepticons regresan en una batalla que abarca desde el desierto de Egipto hasta las calles de Shanghái. Cuando un antiguo artefacto vinculado a los Transformers es descubierto por Sam Witwicky, el conflicto entre las dos facciones se reaviva. Una poderosa amenaza Decepticon, The Fallen, planea resurgir y sumir al mundo en la oscuridad. Sam y los Autobots deben desentrañar secretos ancestrales para detenerlo y salvar a la humanidad de la destrucción total.",
+        "images": [
+            "/movies/Transformers_La_Venganza_de_los_Caídos.jpg"
+        ],
+        "director": "Michael Bay",
+        "release_year": 2009,
+        "writers": [
+            "Ehren Kruger",
+            "Roberto Orci",
+            "Alex Kurtzman"
+        ],
+        "stars": [
+            "Shia LaBeouf",
+            "Megan Fox",
+            "Josh Duhamel"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Transformers",
+        "original_title": "Transformers",
+        "short_summary": "Autobots y Decepticons traen su batalla a la Tierra.",
+        "long_summary": "En 'Transformers', dos facciones de alienígenas robóticos, los heroicos Autobots y los malvados Decepticons, aterrizan en la Tierra después de su devastadora guerra en Cybertron. Su conflicto épico se desata una vez más cuando ambos grupos buscan la AllSpark, una fuente de poder infinito. Sam Witwicky se encuentra en medio de esta lucha mientras forma un vínculo con Bumblebee, un Autobot leal. Juntos, luchan por proteger la AllSpark y evitar que los Decepticons la usen para esclavizar a la humanidad.",
+        "images": [
+            "/movies/Transformers.jpg"
+        ],
+        "director": "Michael Bay",
+        "release_year": 2007,
+        "writers": [
+            "Roberto Orci",
+            "Alex Kurtzman"
+        ],
+        "stars": [
+            "Shia LaBeouf",
+            "Megan Fox",
+            "Josh Duhamel"
+        ]
+    }
+]
+
+
+
+
+
+
+

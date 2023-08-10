@@ -112,7 +112,7 @@ function ResponsiveAppBar() {
                     </Box>
 
                     <Box sx={{ flexGrow: 0 }}>
-                        <IconButton LinkComponent={Link} href="https://github.com/jchiquin" sx={{ p: 0 }}>
+                        <IconButton LinkComponent={Link} target="_blank" href="https://github.com/jchiquin" sx={{ p: 0 }}>
                             <Avatar src="https://avatars.githubusercontent.com/u/37207786?v=4" />
                         </IconButton>
                     </Box>

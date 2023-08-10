@@ -21,6 +21,7 @@
 }
 
 .card-text {
+    font-family: transformer;
     font-size: 60px;
     position: absolute;
     color: black;
