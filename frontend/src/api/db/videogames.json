@@ -1,0 +1,99 @@
+[
+    {
+        "id": 1,
+        "title": "Transformers: Battlegrounds",
+        "long_summary": "Transformers: Battlegrounds es un juego de estrategia táctica por turnos que presenta a los icónicos personajes de la franquicia Transformers. Los jugadores pueden controlar equipos de Autobots y Decepticons en una variedad de misiones y enfrentamientos. El juego ofrece una experiencia accesible y divertida para fans de todas las edades.",
+        "images": [
+            "/videogames/transformers_battlegrounds.jpg"
+        ],
+        "platforms": [
+            "PC",
+            "PlayStation",
+            "Xbox",
+            "Nintendo"
+        ],
+        "developer": "Coatsink",
+        "release_year": 2020,
+        "categories": [
+            "Estrategia por turnos",
+            "Shooter en tercera persona"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Transformers: Earth Wars",
+        "long_summary": "En Transformers: Earth Wars, inspirado en la trilogía de Hasbro “Transformers Generations Prime Wars”, los jugadores deberán elegir luchar con Optimus Prime y los Autobots o con Megatron y los Decepticons, en una batalla que decidirá el destino del planeta Tierra. Una vez forjada una alianza, los jugadores podrán armar un equipo con sus personajes favoritos, infiltrarse en bases enemigas para conseguir Energon, construir el Puente Espacial y agregar refuerzos desde Cybertron, todo esto mientras juegan en tiempo real contra otros jugadores alrededor del mundo.",
+        "images": [
+            "/videogames/transformers_Earth_Wars.png"
+        ],
+        "platforms": [
+            "Iphone",
+            "Android"
+        ],
+        "developer": "Space Ape Games",
+        "release_year": 2016,
+        "categories": [
+            "Estrategia en tiempo real"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Transformers: Devastation",
+        "long_summary": "Transformers: Devastation es un juego de acción hack and slash que combina la jugabilidad clásica con la franquicia Transformers. Los jugadores pueden controlar a varios Autobots mientras luchan contra los Decepticons y otros enemigos icónicos. El juego presenta un estilo visual cel-shaded que recuerda a la serie animada original.",
+        "images": [
+            "/videogames/Transformers-Devastation.jpeg"
+        ],
+        "platforms": [
+            "PlayStation",
+            "Xbox"
+        ],
+        "developer": "PlatinumGames",
+        "release_year": 2015,
+        "categories": [
+            "Acción",
+            "Hack and Slash"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Transformers: Fall of Cybertron",
+        "long_summary": "Transformers: Fall of Cybertron es la secuela de War for Cybertron y sigue la lucha épica entre Autobots y Decepticons. Los jugadores pueden controlar varios personajes Transformers y experimentar eventos clave en la historia de la guerra en Cybertron. El juego presenta mejoras en la jugabilidad y ofrece un emocionante modo campaña.",
+        "images": [
+            "/videogames/transformers_Fall_of_Cybertron.jpg"
+        ],
+        "platforms": [
+            "PC",
+            "PlayStation",
+            "Nintendo"
+        ],
+        "developer": "High Moon Studios",
+        "release_year": 2012,
+        "categories": [
+            "Shooter en tercera persona"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Transformers: War for Cybertron",
+        "long_summary": "Transformers: War for Cybertron es un videojuego de acción en tercera persona que se desarrolla en el planeta natal de los Transformers, Cybertron. La guerra entre Autobots y Decepticons está en su apogeo, y los jugadores pueden elegir un bando y participar en emocionantes batallas. El juego ofrece una experiencia en modo historia y un modo multijugador competitivo.",
+        "images": [
+            "/videogames/transformers_War_for_Cybertron.jpg"
+        ],
+        "platforms": [
+            "PC",
+            "PlayStation",
+            "Xbox",
+            "Nintendo"
+        ],
+        "developer": "High Moon Studios",
+        "release_year": 2010,
+        "categories": [
+            "Shooter en tercera persona"
+        ]
+    }
+]
+
+
+
+
+
