@@ -12,7 +12,7 @@ export default function Home() {
         <Grid item xs={12} md={6}>
           <Link href="/movies">
             <Box className="card">
-              <img src="https://phantom-marca-mx.unidadeditorial.es/68016166388901db4d9d297ea2d6c071/resize/828/f/jpg/mx/assets/multimedia/imagenes/2023/06/10/16864310596537.jpg" />
+              <img src="movies.jpg" />
               <Box className="card-text" sx={{ color: 'text.primary' }}>Películas</Box>
             </Box>
           </Link>
@@ -20,7 +20,7 @@ export default function Home() {
         <Grid item xs={12} md={6}>
           <Link href="/series">
             <Box className="card">
-              <img src="https://pm1.aminoapps.com/6490/6d2eef6cf94fb45b75019b7a981bddbab3f202a4_hq.jpg" />
+              <img src="series.jpg" />
               <Box className="card-text" sx={{ color: 'text.primary' }}>Series</Box>
             </Box>
           </Link>
@@ -28,7 +28,7 @@ export default function Home() {
         <Grid item xs={12} md={6}>
           <Link href="/videogames">
             <Box className="card">
-              <img src="https://play-lh.googleusercontent.com/OwjqycgJF3Og2EcMJdxJUMxEvGS-8oQZKkvE4byqM8w4emlK6PfdRAOZztEhoN91wTw=w526-h296-rw" />
+              <img src="videogames.jpg" />
               <Box className="card-text" sx={{ color: 'text.primary' }}>Videojuegos</Box>
             </Box>
           </Link>
@@ -36,7 +36,7 @@ export default function Home() {
         <Grid item xs={12} md={6}>
           <Link href="/comics">
             <Box className="card">
-              <img src="https://assets.skybound.com/wp-content/uploads/2023/06/13175511/Transformers01A_Cover_cropped.jpg" />
+              <img src="comics.jpg" />
               <Box className="card-text" sx={{ color: 'text.primary' }}>Comics</Box>
             </Box>
           </Link>
