@@ -1,0 +1,87 @@
+[
+    {
+        "id": 1,
+        "title": "Transformers: Unicron",
+        "long_summary": "Transformers: Unicron es un evento cósmico que enfrenta a los Autobots y Decepticons contra la amenaza colosal de Unicron, el devorador de mundos. Los héroes y villanos deben unir fuerzas para detener la destrucción total del universo Transformers.",
+        "issues": 6,
+        "publisher": "IDW Publishing",
+        "release_year": 2018,
+        "images":[
+            "/comics/transformer_unicron.jpg"
+        ],
+        "main_characters": [
+            "Optimus Prime",
+            "Megatron",
+            "Unicron"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Transformers: Lost Light",
+        "long_summary": "Transformers: Lost Light es la continuación directa de More Than Meets the Eye. Los personajes buscan respuestas a misterios cósmicos mientras exploran el espacio lejano. El cómic combina elementos de ciencia ficción, humor y drama mientras profundiza en los lazos entre los personajes.",
+        "issues": 25,
+        "publisher": "IDW Publishing",
+        "release_year": 2017,
+        "images":[
+            "/comics/transformers_Lost_Light.jpg"
+        ],
+        "main_characters": [
+            "Rodimus",
+            "Ultra Magnus",
+            "Megatron"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Transformers: More Than Meets the Eye",
+        "long_summary": "Transformers: More Than Meets the Eye sigue las aventuras de un grupo de Autobots y Decepticons que buscan un nuevo hogar en el espacio exterior. El cómic explora temas de supervivencia, amistad y redención, mientras los personajes se enfrentan a desafíos tanto internos como externos.",
+        "issues": 57,
+        "publisher": "IDW Publishing",
+        "release_year": 2012,
+        "images":[
+            "/comics/transformers_More_Than_Meets_the_Eye.jpg"
+        ],
+        "main_characters": [
+            "Rodimus",
+            "Ultra Magnus",
+            "Megatron"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Transformers: Robots in Disguise",
+        "long_summary": "Transformers: Robots in Disguise sigue a los Autobots que permanecen en la Tierra después de la partida de los Decepticons. Optimus Prime lidera a los Autobots en esfuerzos para coexistir pacíficamente con los humanos mientras enfrentan nuevas amenazas y conspiraciones Decepticon.",
+        "issues": 57,
+        "publisher": "IDW Publishing",
+        "release_year": 2012,
+        "images":[
+            "/comics/transformers_Robots_in_Disguise.jpg"
+        ],
+        "main_characters": [
+            "Optimus Prime",
+            "Bumblebee",
+            "Starscream"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Transformers: Wreckers",
+        "long_summary": "Transformers: Wreckers sigue a un equipo de Autobots conocido como los Wreckers, especializados en misiones peligrosas y de alto riesgo. El cómic explora la camaradería entre los miembros del equipo mientras enfrentan amenazas mortales y luchan por proteger a la galaxia.",
+        "issues": 5,
+        "publisher": "Dreamwave Productions",
+        "release_year": 2010,
+        "images":[
+            "/comics/transformers_Wreckers.jpg"
+        ],
+        "main_characters": [
+            "Springer",
+            "Impactor",
+            "Ultra Magnus"
+        ]
+    }
+]
+
+
+
+
+
