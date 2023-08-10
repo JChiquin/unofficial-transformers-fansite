@@ -29,10 +29,6 @@ const pages = [
     {
         label: 'Comics',
         path: '/comics'
-    },
-    {
-        label: 'Juguetes',
-        path: '/toys'
     }
 ]
 

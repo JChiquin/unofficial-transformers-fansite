@@ -24,12 +24,12 @@ export default async function Movies() {
   const response = await getData()
 
   return (
-    <Container sx={{ py: 6 }} maxWidth={false}>
+    <Container sx={{ py: 6 }} maxWidth={'xl'}>
       <Grid container spacing={4}>
         {response.data.map((movie, i) => (
           <Grid item xs={12} sm={6} md={4}>
-            <Card >
-              <CardActionArea LinkComponent={Link} href={`/movies/${movie.id}`}>
+            <Card sx={{ height: '100%' }}>
+              <CardActionArea sx={{ height: '100%' }} LinkComponent={Link} href={`/movies/${movie.id}`}>
                 <CardMedia
                   component="img"
                   sx={{ height:'65vh', objectFit:'fill' }}
