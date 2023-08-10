@@ -1,3 +1,4 @@
+
 .card {
     border: 1px solid #ccc;
     border-radius: 20px;
@@ -24,7 +25,6 @@
     font-family: transformer;
     font-size: 60px;
     position: absolute;
-    color: black;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);

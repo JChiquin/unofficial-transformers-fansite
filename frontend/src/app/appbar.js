@@ -11,6 +11,10 @@ import Container from '@mui/material/Container';
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
+import { useTheme } from '@mui/material/styles';
+import { useColorModeContext } from './layout';
+import Brightness4Icon from '@mui/icons-material/Brightness4';
+import Brightness7Icon from '@mui/icons-material/Brightness7';
 import Link from 'next/link'
 
 const pages = [
@@ -33,6 +37,8 @@ const pages = [
 ]
 
 function ResponsiveAppBar() {
+    const colorMode = useColorModeContext()
+    const theme = useTheme();
     const [anchorElNav, setAnchorElNav] = React.useState(null);
 
     const handleOpenNavMenu = (event) => {
@@ -95,19 +101,22 @@ function ResponsiveAppBar() {
                     </Box>
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         {pages.map((page) => (
-                                <Button
-                                    LinkComponent={Link}
-                                    href={page.path}
-                                    key={page.path}
-                                    onClick={handleCloseNavMenu}
-                                    sx={{ my: 2, color: 'white', display: 'block' }}
-                                >
-                                    {page.label}
-                                </Button>
+                            <Button
+                                LinkComponent={Link}
+                                href={page.path}
+                                key={page.path}
+                                onClick={handleCloseNavMenu}
+                                sx={{ my: 2, color: 'white', display: 'block' }}
+                            >
+                                {page.label}
+                            </Button>
                         ))}
                     </Box>
 
                     <Box sx={{ flexGrow: 0 }}>
+                        <IconButton sx={{ ml: 1 }} onClick={colorMode.toggleColorMode} color="inherit">
+                            {theme.palette.mode === 'dark' ? <Brightness7Icon /> : <Brightness4Icon />}
+                        </IconButton>
                         <IconButton LinkComponent={Link} target="_blank" href="https://github.com/jchiquin" sx={{ p: 0 }}>
                             <Avatar src="https://avatars.githubusercontent.com/u/37207786?v=4" />
                         </IconButton>
