@@ -1,0 +1,18 @@
+{
+    "movies": "Películas",
+    "comics": "Comics",
+    "series": "Series",
+    "videogames": "Videojuegos",
+    "director": "director",
+    "writers": "Escritores",
+    "stars": "Reparto",
+    "back": "Volver",
+    "seasons": "Temporadas",
+    "episodes": "Episodios",
+    "platforms": "Plataformas",
+    "developer": "Desarrollador",
+    "categories": "Categorías",
+    "issues": "Números",
+    "publisher": "Editor",
+    "main_characters": "Personajes principales"
+}

@@ -1,6 +1,6 @@
 @font-face {
     font-family: transformer;
-    src: url('../../public/Transformers.ttf');
+    src: url('../../../public/Transformers.ttf');
 }
 
 body {

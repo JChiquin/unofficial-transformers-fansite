@@ -1,15 +1,16 @@
 import * as React from 'react';
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
-import { getComicAPI } from '../../../api/modules'
+import { getSerieAPI } from '../../../../api/modules'
 import Typography from '@mui/material/Typography';
 import Divider from '@mui/material/Divider';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import IconButton from '@mui/material/IconButton';
 import Link from 'next/link'
+import { useTranslations } from 'next-intl';
 
 async function getData(id) {
-    const res = await getComicAPI(id)
+    const res = await getSerieAPI(id)
     if (res?.errors?.length > 0) {
         throw new Error(res.errors[0].error)
     }
@@ -17,25 +18,32 @@ async function getData(id) {
     return res
 }
 
-export default async function Comic({ params: { id } }) {
+export default async function Serie({ params: { id } }) {
     const response = await getData(id)
-    const comic = response.data
+    const serie = response.data
+
+    return <SerieContent serie={serie} />
+}
+
+
+function SerieContent({ serie }) {
+    const t = useTranslations();
 
     return (
         <Container sx={{ py: 3 }} maxWidth={'xl'}>
             <Grid container>
                 <Grid item xs={12} md>
-                    <IconButton LinkComponent={Link} href="/comics" sx={{ ml: 1 }} color="inherit">
+                    <IconButton LinkComponent={Link} href="/series" sx={{ ml: 1 }} color="inherit">
                         <ArrowBackIcon />
-                        Volver
+                        {t('back')}
                     </IconButton>
                 </Grid>
                 <Grid item xs={12} md={4} >
                     <Grid container justifyContent={"center"}>
                         <img
                             style={{ height: "55vh" }}
-                            src={comic.images[0]}
-                            alt={comic.title}
+                            src={serie.images[0]}
+                            alt={serie.title}
                             loading="lazy"
                         />
                     </Grid>
@@ -45,32 +53,36 @@ export default async function Comic({ params: { id } }) {
             <Grid container justifyContent={"center"}>
                 <Grid item>
                     <Typography variant="h4" component="div">
-                        {comic.title} ({comic.release_year})
+                        {serie.title} ({serie.release_year})
                     </Typography>
                 </Grid>
             </Grid>
-            <Grid container sx={{ mt: 2 }}>
+            <Grid container sx={{mt:2}}>
                 <Grid item>
                     <Typography variant="subtitle1" color="text.secondary">
-                        {comic.long_summary}
+                        {serie.long_summary}
                     </Typography>
                 </Grid>
             </Grid>
-            <Grid container sx={{ mt: 2 }}>
+            <Grid container sx={{ mt: 2}}>
                 <Grid item>
-                    <Divider />
+                    <Divider/>
                     <Typography variant="h6" color="text.secondary">
-                        <strong>Editor:</strong> {comic.publisher}
+                        <strong>{t('writers')}:</strong> {serie.writers.join(', ')}
                     </Typography>
-                    <Divider />
+                    <Divider/>
                     <Typography variant="h6" color="text.secondary">
-                        <strong>Personajes principales:</strong> {comic.main_characters.join(', ')}
+                        <strong>{t('stars')}:</strong> {serie.stars.join(', ')}
                     </Typography>
-                    <Divider />
+                    <Divider/>
                     <Typography variant="h6" color="text.secondary">
-                        <strong>Números:</strong> {comic.issues}
+                        <strong>{t('seasons')}:</strong> {serie.seasons}
                     </Typography>
-                    <Divider />
+                    <Divider/>
+                    <Typography variant="h6" color="text.secondary">
+                        <strong>{t('episodes')}:</strong> {serie.episodes}
+                    </Typography>
+                    <Divider/>
                 </Grid>
             </Grid>
         </Container>

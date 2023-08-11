@@ -1,12 +1,13 @@
 import * as React from 'react';
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
-import { getMovieAPI } from '../../../api/modules'
+import { getMovieAPI } from '../../../../api/modules'
 import Typography from '@mui/material/Typography';
 import Divider from '@mui/material/Divider';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import IconButton from '@mui/material/IconButton';
 import Link from 'next/link'
+import { useTranslations } from 'next-intl';
 
 async function getData(id) {
     const res = await getMovieAPI(id)
@@ -21,13 +22,19 @@ export default async function Movie({ params: { id } }) {
     const response = await getData(id)
     const movie = response.data
 
+    return <MovieContent movie={movie} />
+}
+
+function MovieContent({ movie }) {
+    const t = useTranslations();
+
     return (
         <Container sx={{ py: 3 }} maxWidth={'xl'}>
             <Grid container>
                 <Grid item xs={12} md>
                     <IconButton LinkComponent={Link} href="/movies" sx={{ ml: 1 }} color="inherit">
                         <ArrowBackIcon />
-                        Volver
+                        {t('back')}
                     </IconButton>
                 </Grid>
                 <Grid item xs={12} md={4} >
@@ -52,28 +59,28 @@ export default async function Movie({ params: { id } }) {
                     </Typography>
                 </Grid>
             </Grid>
-            <Grid container sx={{mt:2}}>
+            <Grid container sx={{ mt: 2 }}>
                 <Grid item>
                     <Typography variant="subtitle1" color="text.secondary">
                         {movie.long_summary}
                     </Typography>
                 </Grid>
             </Grid>
-            <Grid container sx={{ mt: 2}}>
+            <Grid container sx={{ mt: 2 }}>
                 <Grid item>
-                    <Divider/>
+                    <Divider />
                     <Typography variant="h6" color="text.secondary">
-                        <strong>Director:</strong> {movie.director}
+                        <strong>{t('director')}:</strong> {movie.director}
                     </Typography>
-                    <Divider/>
+                    <Divider />
                     <Typography variant="h6" color="text.secondary">
-                        <strong>Escritores:</strong> {movie.writers.join(', ')}
+                        <strong>{t('writers')}:</strong> {movie.writers.join(', ')}
                     </Typography>
-                    <Divider/>
+                    <Divider />
                     <Typography variant="h6" color="text.secondary">
-                        <strong>Reparto:</strong> {movie.stars.join(', ')}
+                        <strong>{t('stars')}:</strong> {movie.stars.join(', ')}
                     </Typography>
-                    <Divider/>
+                    <Divider />
                 </Grid>
             </Grid>
         </Container>

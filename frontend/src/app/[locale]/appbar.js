@@ -12,31 +12,14 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import { useTheme } from '@mui/material/styles';
-import { useColorModeContext } from './layout';
+import { useColorModeContext } from './theme-provider';
 import Brightness4Icon from '@mui/icons-material/Brightness4';
 import Brightness7Icon from '@mui/icons-material/Brightness7';
 import Link from 'next/link'
-
-const pages = [
-    {
-        label: 'Peliculas',
-        path: '/movies'
-    },
-    {
-        label: 'Series',
-        path: '/series'
-    },
-    {
-        label: 'Videojuegos',
-        path: '/videogames'
-    },
-    {
-        label: 'Comics',
-        path: '/comics'
-    }
-]
+import {useTranslations} from 'next-intl';
 
 function ResponsiveAppBar() {
+    const t = useTranslations();
     const colorMode = useColorModeContext()
     const theme = useTheme();
     const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -49,6 +32,25 @@ function ResponsiveAppBar() {
     const handleCloseNavMenu = () => {
         setAnchorElNav(null);
     };
+
+    const pages = [
+        {
+            label: t('movies'),
+            path: '/movies'
+        },
+        {
+            label: t('series'),
+            path: '/series'
+        },
+        {
+            label: t('videogames'),
+            path: '/videogames'
+        },
+        {
+            label: t('comics'),
+            path: '/comics'
+        }
+    ]
 
 
     return (

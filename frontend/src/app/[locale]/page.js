@@ -4,8 +4,11 @@ import Box from '@mui/material/Box';
 import Link from 'next/link'
 import Container from '@mui/material/Container';
 import './style.css'
+import {useTranslations} from 'next-intl';
 
 export default function Home() {
+  const t = useTranslations();
+  
   return (
     <Container sx={{ pt: 6 }} maxWidth={"xl"}>
       <Grid container spacing={4}>
@@ -13,7 +16,7 @@ export default function Home() {
           <Link href="/movies">
             <Box className="card">
               <img src="movies.jpg" />
-              <Box className="card-text" sx={{ color: 'text.primary' }}>Películas</Box>
+              <Box className="card-text" sx={{ color: 'text.primary' }}>{t('movies')}</Box>
             </Box>
           </Link>
         </Grid>
@@ -21,7 +24,7 @@ export default function Home() {
           <Link href="/series">
             <Box className="card">
               <img src="series.jpg" />
-              <Box className="card-text" sx={{ color: 'text.primary' }}>Series</Box>
+              <Box className="card-text" sx={{ color: 'text.primary' }}>{t('series')}</Box>
             </Box>
           </Link>
         </Grid>
@@ -29,7 +32,7 @@ export default function Home() {
           <Link href="/videogames">
             <Box className="card">
               <img src="videogames.jpg" />
-              <Box className="card-text" sx={{ color: 'text.primary' }}>Videojuegos</Box>
+              <Box className="card-text" sx={{ color: 'text.primary' }}>{t('videogames')}</Box>
             </Box>
           </Link>
         </Grid>
@@ -37,7 +40,7 @@ export default function Home() {
           <Link href="/comics">
             <Box className="card">
               <img src="comics.jpg" />
-              <Box className="card-text" sx={{ color: 'text.primary' }}>Comics</Box>
+              <Box className="card-text" sx={{ color: 'text.primary' }}>{t('comics')}</Box>
             </Box>
           </Link>
         </Grid>

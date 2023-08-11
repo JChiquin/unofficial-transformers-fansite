@@ -1,15 +1,16 @@
 import * as React from 'react';
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
-import { getSerieAPI } from '../../../api/modules'
+import { getVideogameAPI } from '../../../../api/modules'
 import Typography from '@mui/material/Typography';
 import Divider from '@mui/material/Divider';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import IconButton from '@mui/material/IconButton';
 import Link from 'next/link'
+import { useTranslations } from 'next-intl';
 
 async function getData(id) {
-    const res = await getSerieAPI(id)
+    const res = await getVideogameAPI(id)
     if (res?.errors?.length > 0) {
         throw new Error(res.errors[0].error)
     }
@@ -17,25 +18,32 @@ async function getData(id) {
     return res
 }
 
-export default async function Serie({ params: { id } }) {
+export default async function Videogame({ params: { id } }) {
     const response = await getData(id)
-    const serie = response.data
+    const videogame = response.data
+
+    return <VideogameContent videogame={videogame} />
+}
+
+
+function VideogameContent({ videogame }) {
+    const t = useTranslations();
 
     return (
         <Container sx={{ py: 3 }} maxWidth={'xl'}>
             <Grid container>
                 <Grid item xs={12} md>
-                    <IconButton LinkComponent={Link} href="/series" sx={{ ml: 1 }} color="inherit">
+                    <IconButton LinkComponent={Link} href="/videogames" sx={{ ml: 1 }} color="inherit">
                         <ArrowBackIcon />
-                        Volver
+                        {t('back')}
                     </IconButton>
                 </Grid>
                 <Grid item xs={12} md={4} >
                     <Grid container justifyContent={"center"}>
                         <img
                             style={{ height: "55vh" }}
-                            src={serie.images[0]}
-                            alt={serie.title}
+                            src={videogame.images[0]}
+                            alt={videogame.title}
                             loading="lazy"
                         />
                     </Grid>
@@ -45,14 +53,14 @@ export default async function Serie({ params: { id } }) {
             <Grid container justifyContent={"center"}>
                 <Grid item>
                     <Typography variant="h4" component="div">
-                        {serie.title} ({serie.release_year})
+                        {videogame.title} ({videogame.release_year})
                     </Typography>
                 </Grid>
             </Grid>
             <Grid container sx={{mt:2}}>
                 <Grid item>
                     <Typography variant="subtitle1" color="text.secondary">
-                        {serie.long_summary}
+                        {videogame.long_summary}
                     </Typography>
                 </Grid>
             </Grid>
@@ -60,19 +68,15 @@ export default async function Serie({ params: { id } }) {
                 <Grid item>
                     <Divider/>
                     <Typography variant="h6" color="text.secondary">
-                        <strong>Escritores:</strong> {serie.writers.join(', ')}
+                        <strong>{t('platforms')}:</strong> {videogame.platforms.join(', ')}
                     </Typography>
                     <Divider/>
                     <Typography variant="h6" color="text.secondary">
-                        <strong>Reparto:</strong> {serie.stars.join(', ')}
+                        <strong>{t('developer')}:</strong> {videogame.developer}
                     </Typography>
                     <Divider/>
                     <Typography variant="h6" color="text.secondary">
-                        <strong>Temporadas:</strong> {serie.seasons}
-                    </Typography>
-                    <Divider/>
-                    <Typography variant="h6" color="text.secondary">
-                        <strong>Episodios:</strong> {serie.episodes}
+                        <strong>{t('categories')}:</strong> {videogame.categories.join(', ')}
                     </Typography>
                     <Divider/>
                 </Grid>

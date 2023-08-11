@@ -2,7 +2,7 @@ import * as React from 'react';
 import Grid from '@mui/material/Grid';
 import Link from 'next/link'
 import Container from '@mui/material/Container';
-import { getVideogamesAPI } from '../../api/modules'
+import { getVideogamesAPI } from '../../../api/modules'
 
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';

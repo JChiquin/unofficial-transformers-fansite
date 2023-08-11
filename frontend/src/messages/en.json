@@ -1,0 +1,18 @@
+{
+    "movies": "Movies",
+    "comics": "Comics",
+    "series": "Series",
+    "videogames": "Videogames",
+    "director": "Director",
+    "writers": "Writers",
+    "stars": "Stars",
+    "back": "Back",
+    "seasons": "Seasons",
+    "episodes": "Episodes",
+    "platforms": "Platforms",
+    "developer": "Developer",
+    "categories": "Categories",
+    "issues": "Issues",
+    "publisher": "Publisher",
+    "main_characters": "Main characters"
+}
