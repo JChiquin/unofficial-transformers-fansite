@@ -9,11 +9,6 @@ import ThemeProvider from './theme-provider';
 import { useLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
 
-export function generateStaticParams() {
-  return [{ locale: 'es' }, { locale: 'en' }];
-}
-
-
 export default async function RootLayout({ children, params }) {
   const locale = useLocale();
 

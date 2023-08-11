@@ -17,6 +17,7 @@ import Brightness4Icon from '@mui/icons-material/Brightness4';
 import Brightness7Icon from '@mui/icons-material/Brightness7';
 import Link from 'next/link'
 import {useTranslations} from 'next-intl';
+import LanguageSwitcher from './languageSwitcher';
 
 function ResponsiveAppBar() {
     const t = useTranslations();
@@ -115,7 +116,8 @@ function ResponsiveAppBar() {
                         ))}
                     </Box>
 
-                    <Box sx={{ flexGrow: 0 }}>
+                    <Box sx={{ flexGrow: 0, display: 'flex' }}>
+                        <LanguageSwitcher />
                         <IconButton sx={{ ml: 1 }} onClick={colorMode.toggleColorMode} color="inherit">
                             {theme.palette.mode === 'dark' ? <Brightness7Icon /> : <Brightness4Icon />}
                         </IconButton>
