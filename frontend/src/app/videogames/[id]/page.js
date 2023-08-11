@@ -2,13 +2,11 @@ import * as React from 'react';
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
 import { getVideogameAPI } from '../../../api/modules'
-
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Divider from '@mui/material/Divider';
-import { CardActionArea } from '@mui/material';
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import IconButton from '@mui/material/IconButton';
+import Link from 'next/link'
 
 async function getData(id) {
     const res = await getVideogameAPI(id)
@@ -25,15 +23,24 @@ export default async function Videogame({ params: { id } }) {
 
     return (
         <Container sx={{ py: 3 }} maxWidth={'xl'}>
-            <Grid container justifyContent={"center"}>
-                <Grid item>
-                    <img
-                        style={{ height: "55vh" }}
-                        src={videogame.images[0]}
-                        alt={videogame.title}
-                        loading="lazy"
-                    />
+            <Grid container>
+                <Grid item xs={12} md>
+                    <IconButton LinkComponent={Link} href="/videogames" sx={{ ml: 1 }} color="inherit">
+                        <ArrowBackIcon />
+                        Volver
+                    </IconButton>
                 </Grid>
+                <Grid item xs={12} md={4} >
+                    <Grid container justifyContent={"center"}>
+                        <img
+                            style={{ height: "55vh" }}
+                            src={videogame.images[0]}
+                            alt={videogame.title}
+                            loading="lazy"
+                        />
+                    </Grid>
+                </Grid>
+                <Grid item md />
             </Grid>
             <Grid container justifyContent={"center"}>
                 <Grid item>

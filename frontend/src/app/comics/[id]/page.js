@@ -2,13 +2,11 @@ import * as React from 'react';
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
 import { getComicAPI } from '../../../api/modules'
-
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Divider from '@mui/material/Divider';
-import { CardActionArea } from '@mui/material';
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import IconButton from '@mui/material/IconButton';
+import Link from 'next/link'
 
 async function getData(id) {
     const res = await getComicAPI(id)
@@ -25,15 +23,24 @@ export default async function Comic({ params: { id } }) {
 
     return (
         <Container sx={{ py: 3 }} maxWidth={'xl'}>
-            <Grid container justifyContent={"center"}>
-                <Grid item>
-                    <img
-                        style={{ height: "55vh" }}
-                        src={comic.images[0]}
-                        alt={comic.title}
-                        loading="lazy"
-                    />
+            <Grid container>
+                <Grid item xs={12} md>
+                    <IconButton LinkComponent={Link} href="/comics" sx={{ ml: 1 }} color="inherit">
+                        <ArrowBackIcon />
+                        Volver
+                    </IconButton>
                 </Grid>
+                <Grid item xs={12} md={4} >
+                    <Grid container justifyContent={"center"}>
+                        <img
+                            style={{ height: "55vh" }}
+                            src={comic.images[0]}
+                            alt={comic.title}
+                            loading="lazy"
+                        />
+                    </Grid>
+                </Grid>
+                <Grid item md />
             </Grid>
             <Grid container justifyContent={"center"}>
                 <Grid item>
@@ -42,28 +49,28 @@ export default async function Comic({ params: { id } }) {
                     </Typography>
                 </Grid>
             </Grid>
-            <Grid container sx={{mt:2}}>
+            <Grid container sx={{ mt: 2 }}>
                 <Grid item>
                     <Typography variant="subtitle1" color="text.secondary">
                         {comic.long_summary}
                     </Typography>
                 </Grid>
             </Grid>
-            <Grid container sx={{ mt: 2}}>
+            <Grid container sx={{ mt: 2 }}>
                 <Grid item>
-                    <Divider/>
+                    <Divider />
                     <Typography variant="h6" color="text.secondary">
                         <strong>Editor:</strong> {comic.publisher}
                     </Typography>
-                    <Divider/>
+                    <Divider />
                     <Typography variant="h6" color="text.secondary">
                         <strong>Personajes principales:</strong> {comic.main_characters.join(', ')}
                     </Typography>
-                    <Divider/>
+                    <Divider />
                     <Typography variant="h6" color="text.secondary">
                         <strong>Números:</strong> {comic.issues}
                     </Typography>
-                    <Divider/>
+                    <Divider />
                 </Grid>
             </Grid>
         </Container>
